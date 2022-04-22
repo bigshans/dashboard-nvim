@@ -16,7 +16,7 @@ execute 'syntax region DashboardFooter start=/\%'. dashboard#get_lastline() .'l/
 
 syntax region DashboardCenter start=/\S/ end=/\s\{1,3}/
 
-syntax region DashboardShortCut start=/\s\s\w\+\s[a-z]\+/ end=/$/
+syntax region DashboardShortCut start=/\s\s\w\+\s[a-zA-Z]\+/ end=/$/
 
 highlight default link DashboardHeader  Type
 highlight default link DashboardCenter  String
